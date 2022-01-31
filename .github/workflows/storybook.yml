@@ -13,7 +13,7 @@ jobs:
         with:
           persist-credentials: false
       - run: ls -la
-        working-directory: ${{ github.workspace }}/tmp
+        working-directory: ${{ github.workspace }}
       - run: mkdir ./docs
         working-directory: ${{ github.workspace }}
       - name: Install and Build 🔧
