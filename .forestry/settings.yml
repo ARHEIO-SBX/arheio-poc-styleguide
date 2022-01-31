@@ -8,7 +8,7 @@ sections:
   path: "./src/stories"
   label: Stories
   create: all
-  match: "./src/stories/**/*"
+  match: "**/*"
   new_doc_ext: mdx
 - type: directory
   path: "."
