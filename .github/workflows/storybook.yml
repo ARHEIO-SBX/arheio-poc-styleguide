@@ -1,5 +1,5 @@
 name: Build and Deploy
-on: 
+on:
   push:
     paths: ["src/stories/**"] # Trigger the action only when files change in the folders defined here
 jobs:
@@ -14,6 +14,8 @@ jobs:
         run: | # Install npm packages and build the Storybook files
           yarn install
           yarn run build-storybook
+      - run: ls -la
+        working-directory: ${{ github.workspace }}/tmp
       - run: mkdir ./docs
         working-directory: ${{ github.workspace }}
       - name: Deploy 🚀
