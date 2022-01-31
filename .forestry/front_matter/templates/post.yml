@@ -8,4 +8,6 @@ fields:
     required: false
   label: Title
 pages:
+- "./documentation/glossary.md"
+- src/stories/title.md
 - src/stories/title.md

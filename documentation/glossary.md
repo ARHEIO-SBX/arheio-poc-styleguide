@@ -1,0 +1,7 @@
+---
+title: Glossary
+
+---
+# title
+
+text
