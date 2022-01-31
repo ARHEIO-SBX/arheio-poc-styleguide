@@ -8,8 +8,8 @@ sections:
   path: "./src/stories"
   label: Stories
   create: all
-  match: "**/*"
-  new_doc_ext: ".mdx"
+  match: "./src/stories/**/*"
+  new_doc_ext: mdx
 - type: directory
   path: "."
   label: Repo
