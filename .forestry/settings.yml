@@ -11,11 +11,11 @@ sections:
   match: "**/*"
   new_doc_ext: mdx
 - type: directory
-  path: "."
+  path: ''
   label: Repo
   create: all
   match: "**/*"
-  new_doc_ext: mdx
+  new_doc_ext: md
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
